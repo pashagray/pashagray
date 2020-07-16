@@ -26,13 +26,5 @@ My last publications:
 
 EOF
 
-puts "1"
-puts File.open("#{ENV['GITHUB_WORKSPACE']}/README.md").read
-puts "-"
-
-puts "2"
-puts File.open("./README.md").read
-puts "-"
-
- File.open("./README.md", "w") { |file| file.write(markdown) }
+ File.open("#{ENV['GITHUB_WORKSPACE']}/README.md", "w") { |file| file.write(markdown) }
 
