@@ -34,6 +34,5 @@ puts "2"
 puts File.open("./README.md").read
 puts "-"
 
-# File.write("./../../README.md", markdown)
-
+ File.open("./README.md", "w") { |file| file.write(markdown) }
 
