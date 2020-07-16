@@ -23,7 +23,7 @@ jobs:
       with:
         ruby-version: '2.7' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
     - name: Install gems
-      run: gem install redcarpet
+      run: gem install faraday
     - name: Run script
       env:
         DEV_TO_API_KEY: ${{ secrets.DEV_TO_API_KEY }}
