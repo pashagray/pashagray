@@ -26,5 +26,4 @@ My last publications:
 
 EOF
 
- File.open("#{ENV['GITHUB_WORKSPACE']}/README.md", "w") { |file| file.write(markdown) }
-
+File.write("./README.md", markdown)
