@@ -22,6 +22,7 @@ jobs:
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.7' # Version range or exact version of a Ruby version to use, using semvers version range syntax.
-    - run: |
-      gem install ox
-      ruby ./scripts/rb/update_readme.rb
+    - name: Install gems
+      run: gem install ox
+    - name: Run script
+      run: ruby ./scripts/rb/update_readme.rb
