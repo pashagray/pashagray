@@ -6,4 +6,4 @@ file_data = file.read
 
 # puts file_data
 
-puts ENV["GEM_HOME"][0..5]
+puts ENV["DEV_TO_API_KEY"][0..5]
