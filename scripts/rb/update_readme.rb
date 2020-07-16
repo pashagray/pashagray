@@ -22,7 +22,7 @@ I'm a fullstack ruby and js developer. Follow me on Dev.to
 
 My last publications:
 
-#{posts}
+#{posts.join}
 
 EOF
 
