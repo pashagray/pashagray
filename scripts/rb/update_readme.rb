@@ -1,9 +1,31 @@
-require "ox"
+require "json"
+require "faraday"
 
-file = File.open("./README.md")
+response = Faraday.get(
+  "https://dev.to/api/articles/me/published",
+  {},
+  { "api-key": ENV["DEV_TO_API_KEY"] }
+)
 
-file_data = file.read
+posts = JSON.parse(response.body).map do |article|
+  <<~EOF
+  __(#{article['title']})[#{article['url']}]__"
+  #{article['description']}
 
-# puts file_data
+  EOF
+end
 
-puts ENV["DEV_TO_API_KEY"][0..5]
+markdown = <<~EOF
+# Hello friends!
+
+I'm a fullstack ruby and js developer. Follow me on Dev.to
+
+My last publications:
+
+#{posts}
+
+EOF
+
+File.write("./README.md", markdown)
+
+
