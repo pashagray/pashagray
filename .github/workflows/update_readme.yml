@@ -25,4 +25,6 @@ jobs:
     - name: Install gems
       run: gem install ox
     - name: Run script
+      env:
+        DEV_TO_API_KEY: ${{ secrets.DEV_TO_API_KEY }}
       run: ruby ./scripts/rb/update_readme.rb
