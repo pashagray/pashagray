@@ -4,6 +4,10 @@ I'm a fullstack ruby and js developer. Follow me on [Dev.to](https://dev.to/pash
 
 My last publications:
 
+__[GitHub auto README with ruby, github-actions and dev.to API](https://dev.to/pashagray/github-auto-readme-with-ruby-github-actions-and-dev-to-api-1leo)__
+
+A brand new cool thing from github: you can create your own unique readme. And the ability to do this...
+
 __[Simple pub/sub pattern (OOP) using pure Ruby](https://dev.to/pashagray/simple-pub-sub-pattern-oop-using-pure-ruby-49eh)__
 
 DIY Pub/Sub simple architecture using pure Ruby
