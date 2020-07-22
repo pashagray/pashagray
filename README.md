@@ -4,6 +4,10 @@ I'm a fullstack ruby and js developer. Follow me on [Dev.to](https://dev.to/pash
 
 My last publications:
 
+__["Back to the future" or how to test time-based logic in Rails](https://dev.to/pashagray/back-to-the-future-or-how-to-test-time-based-logic-in-rails-d02)__
+
+"Back to the future" or how to test time-based logic in Rails    If time travel is possible,...
+
 __[GitHub auto README with ruby, github-actions and dev.to API](https://dev.to/pashagray/github-auto-readme-with-ruby-github-actions-and-dev-to-api-1leo)__
 
 A brand new cool thing from github: you can create your own unique readme. And the ability to do this...
