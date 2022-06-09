@@ -4,6 +4,10 @@ I'm a fullstack ruby and js developer. Follow me on [Dev.to](https://dev.to/pash
 
 My last publications:
 
+__[How NOT to make your first indie game](https://dev.to/pashagray/how-not-to-make-your-first-indie-game-39l8)__
+
+The story of how I failed my first gamedev project.
+
 __["Back to the future" or how to test time-based logic in Rails](https://dev.to/pashagray/back-to-the-future-or-how-to-test-time-based-logic-in-rails-d02)__
 
 "Back to the future" or how to test time-based logic in Rails    If time travel is possible,...
