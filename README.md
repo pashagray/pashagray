@@ -1,6 +1,6 @@
 # Hello friends!
 
-I'm a fullstack ruby and js developer. Follow me on [Dev.to](https://dev.to/pashagray)
+I'm a fullstack ruby and js developer. My gamedev channel (devlogs): [@pasha_grey](https://t.me/pasha_grey) 
 
 My last publications:
 
